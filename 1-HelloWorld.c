@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h> //Biblioteca para adicionar acentuação
 
-//Fun��o principal do programa
+//Funçãoo principal do programa
 void main(){
 
-    //Imprime na tela
-    printf("Oi mundo!");
+    setlocale(LC_ALL, ""); // Permite usar acentos, as aspas duplas são para pegar o idioma do seu PC
 
-    //Pausa o programa ap�s executar
-    system("pause");
+    //Imprime na tela
+    printf("Olá mundo!\n");
 
 }
 
