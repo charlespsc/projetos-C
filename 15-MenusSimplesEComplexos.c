@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Fun��o principal do programa
+//Função principal do programa
 void main(){
 
-    //Definindo Vari�veis
+    //Definindo Variáveis
     int opcao;
 
-    //Confere e valida a opcao
+    //Confere e valida a opção
     while(opcao < 1 || opcao > 3){
 
          //Interface de Menu
@@ -16,29 +16,25 @@ void main(){
         printf("\n2-Opcao 2");
         printf("\n3-Opcao 3\n");
 
-        //Lendo a opcao
+        //Lendo a opção    
         scanf("%d", &opcao);
 
-        //Resultado de acordo com a opcao escolhida
+        //Resultado de acordo com a opção escolhida
         switch(opcao){
              case 1:
-                printf("\nOpcao 1 foi escolhida");
+                printf("\nOpcao 1 foi escolhida\n");
                 break;
              case 2:
-                printf("\nOpcao 2 foi escolhida");
+                printf("\nOpcao 2 foi escolhida\n");
                 break;
              case 3:
-                printf("\nOpcao 3 foi escolhida");
+                printf("\nOpcao 3 foi escolhida\n");
                 break;
             default:
-                printf("\nOpcao Invalida");
+                printf("\nOpcao Invalida\n");
                 break;
         }
 
     }
 
-    //Pausa o programa ap�s executar
-    system("pause");
-
 }
-

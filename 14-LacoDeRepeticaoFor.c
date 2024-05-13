@@ -1,29 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Função principal do programa
+//FunÃ§Ã£oo principal do programa
 void main(){
 
-    //Definir Variáveis
-    int cont;
+    //Definir VariÃ¡veis
+    int contador;
 
     //Tabuada do 5
-    for(cont = 1; cont <= 10; cont++){
-        printf("\n 5 X %d = %d",cont, 5 * cont);
+    for(contador = 1; contador <= 10; contador++){
+        printf("\n 5 X %d = %d",contador, 5 * contador);
     }
 
     //Contando de 2 em 2
-    for(cont = 0; cont <= 10; cont = cont + 2){
-        printf("\n%d",cont);
+    for(contador = 0; contador <= 10; contador = contador + 2){
+        printf("\n%d",contador);
     }
 
     //Contagem regressiva
-    for(cont = 10; cont > 0; cont--){
-        printf("\n%d", cont);
+    for(contador = 10; contador > 0; contador--){
+        printf("\n%d", contador);
     }
-
-    //Pausa o programa após executar
-    system("pause");
 
 }
 
