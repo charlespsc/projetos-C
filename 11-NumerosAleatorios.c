@@ -9,7 +9,10 @@ void main(){
    srand((unsigned)time(NULL));
 
    //Variável que recebe o resto da divisão do número por 3 (aleatorio entre 0 e 2)
-   int aleatorio = rand() % 3;
+   //int aleatorio = rand() % 3;
+
+   //Imprime o valor
+   // printf("%d", aleatorio);
 
    //Variável que recebe o resto da divisão do número por 5 (aleatorio entre 1 e 5)
    int aleatorioSegundo = (rand() % 5) + 1;
