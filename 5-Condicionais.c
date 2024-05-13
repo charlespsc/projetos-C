@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Função principal do programa
+//FunÃ§Ã£o principal do programa
 void main(){
 
-    //Definindo Variáveis
+    //Definindo VariÃ¡veis
     int a = 4,opcao = 3;
     float b = 2.5;
     char c = 'x';
@@ -20,7 +20,7 @@ void main(){
         printf("\n A variavel c = letra x");
     }
 
-    //Número par ou impar
+    //NÃºmero par (==0) ou impar (==1)
     if(a % 2 == 1){
         printf("\n A variavel a eh impar");
     }else{
@@ -35,8 +35,5 @@ void main(){
     }else{
         printf("\nA opcao nao eh igual a 1 e nem 2");
     }
-
-    //Pausa o programa após executar
-    system("pause");
 
 }
