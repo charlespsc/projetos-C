@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Função principal do programa
+//FunÃ§Ã£o principal do programa
 void main(){
 
-    //Definindo Variáveis
+    //Definindo VariÃ¡veis
     int a = 2;
     char b = 'y';
 
-    //Código de exemplo com if
+    //Cï¿½digo de exemplo com if
     if(a == 1){
         printf("\n Opcao escolhida: 1");
     }else if(a == 2){
@@ -19,7 +19,7 @@ void main(){
         printf("\n Opcao invalida");
     }
 
-    //O mesmo código de cima, adaptado ao Switch
+    //O mesmo cÃ³digo de cima, adaptado ao Switch
     switch(a){
         case 1:
             printf("\n Opcao escolhida: 1");
@@ -44,9 +44,6 @@ void main(){
             printf("\n Opcao invalida");
             break;
     }
-
-    //Pausa o programa após executar
-    system("pause");
 
 }
 
