@@ -1,29 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Função principal do programa
+//FunÃ§Ã£o principal do programa
 void main(){
 
-    //Variáveis
+    //VariÃ¡veis
     char palavra[10];
 
-    //Instrução
-    printf("Digite uma palavra");
+    //InstruÃ§Ã£o
+    printf("Digite uma palavra: ");
 
     //Limpa o Buffer
     setbuf(stdin, 0);
 
-    //Lê a String
+    //LÃª a String
     fgets(palavra, 255, stdin);
 
-    //Limpa as casas não utilizadas
+    //Limpa as casas nÃ£o utilizadas (libera memÃ³ria)
     palavra[strlen(palavra)-1] = '\0';
 
     //Imprime na tela
-    printf("%s", palavra);
-
-    //Pausa o programa após executar
-    system("pause");
+    printf("%s\n", palavra);
 
 }
 
