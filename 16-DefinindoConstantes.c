@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #define TAM 10
 
-//Função principal do programa
+//FunÃ§Ã£o principal do programa
 void main(){
 
     //Imprime na tela
@@ -10,13 +10,10 @@ void main(){
 
     int i;
 
-    //Contagem até 10
+    //Contagem atÃ© 10
     for(i = 1;i <= TAM;i++){
         printf("\n%d", i);
     }
-
-    //Pausa o programa após executar
-    system("pause");
 
 }
 
