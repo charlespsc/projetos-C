@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//Função principal do programa
+//FunÃ§Ã£o principal do programa
 int main(){
 
     //Criando uma matriz
@@ -42,8 +42,5 @@ int main(){
         }
         cout << "\n";
     }
-
-    //Pausa o programa após executar
-    system("pause");
 
 }
